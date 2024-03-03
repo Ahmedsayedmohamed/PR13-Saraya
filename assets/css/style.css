@@ -31,7 +31,7 @@ Variable CSS
   --tg-body-font-family: "Poppins", sans-serif;
   --tg-heading-font-family: "Paytone One", sans-serif;
   --tg-pacifico-font-family: "Pacifico", cursive;
-  --tg-primary-color: #c3a241;
+  --tg-primary-color: #bcbec0;
   --tg-secondary-color: #fff;
   --tg-body-font-color: #fff;
   --tg-heading-font-color: #fff;
@@ -402,7 +402,7 @@ Header
   display: flex;
   align-items: center;
   font-size: 12px;
-  color: var(--tg-gray);
+  color:#000;
 }
 .header-top-left .list-wrap li::before {
   content: "";
@@ -418,7 +418,7 @@ Header
   display: none;
 }
 .header-top-left .list-wrap li a {
-  color: var(--tg-gray);
+  color: #000;
 }
 .header-top-left .list-wrap li a:hover {
   color: var(--tg-primary-color);
@@ -436,7 +436,7 @@ Header
   background: var(--tg-primary-color);
   border-radius: 0 0 6px 6px;
   font-size: 15px;
-  color: var(--tg-white);
+  color:#000;
 }
 .header-top-right {
   display: flex;
@@ -494,7 +494,7 @@ header .navbar-wrap .dropdownMe:hover .dropdown-content {
 }
 .header-top-menu .list-wrap li a {
   font-size: 12px;
-  color: var(--tg-gray);
+  color: #000;
 }
 .header-top-menu .list-wrap li a:hover {
   color: var(--tg-primary-color);
@@ -505,7 +505,7 @@ header .navbar-wrap .dropdownMe:hover .dropdown-content {
   gap: 15px;
 }
 .header-top-social .list-wrap li a {
-  color: var(--tg-gray-two);
+  color: #000;
   font-size: 12px;
 }
 .header-top-social .list-wrap li a:hover {
@@ -546,8 +546,8 @@ header .navbar-wrap .dropdownMe:hover .dropdown-content {
 }
 .navbar-wrap ul li a
  {
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 25px;
+  font-weight: 500;
   text-transform: capitalize;
   color: var(--tg-menu-color);
   padding: 25px 0;
@@ -555,7 +555,7 @@ header .navbar-wrap .dropdownMe:hover .dropdown-content {
   line-height: 1;
   position: relative;
   z-index: 1;
- font-family: "Montserrat", sans-serif;;
+ font-family: "Italianno", cursive;;
 }
 
 .navbar-wrap ul li .active,
